@@ -1,0 +1,8 @@
+platformName:Android
+platVersion:7.0.1
+devicesName:127.0.0.1:62001
+
+appPackage:com.xueqiu.android
+appActivity:.view.WelcomeActivityAlias
+unicodeKeyboard:True
+aotuGrantPermissions:True
