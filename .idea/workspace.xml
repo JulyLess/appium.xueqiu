@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a86e489-2113-4d69-92bd-457dcf972c44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base/ConnectDevices.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/Globalpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/start_Appium.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/driver_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/driver_config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/readyamlConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/readyamlConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/Globalpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/Globalpath.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AutoXueQiu$driver_config.coverage" NAME="driver_config Coverage Results" MODIFIED="1576487120624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/common" />
+    <SUITE FILE_PATH="coverage/AutoXueQiu$Globalpath.coverage" NAME="Globalpath Coverage Results" MODIFIED="1577180314248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/AutoXueQiu$readyamlConfig.coverage" NAME="readyamlConfig Coverage Results" MODIFIED="1577174149958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/AutoXueQiu$readConfig.coverage" NAME="readConfig Coverage Results" MODIFIED="1576572477882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -48,11 +46,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/Globalpath.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/base/start_Appium.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,6 +118,7 @@
         <option value="$PROJECT_DIR$/base/__init__.py" />
         <option value="$PROJECT_DIR$/base/globalpath.py" />
         <option value="$PROJECT_DIR$/base/Globalpath.py" />
+        <option value="$PROJECT_DIR$/base/start_Appium.py" />
       </list>
     </option>
   </component>
@@ -170,7 +181,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.readyamlConfig">
+  <component name="RunManager" selected="Python.Globalpath">
+    <configuration name="Globalpath" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutoXueQiu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/Globalpath.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="driver_config" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutoXueQiu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,6 +272,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Globalpath" />
         <item itemvalue="Python.readyamlConfig" />
         <item itemvalue="Python.readConfig" />
         <item itemvalue="Python.driver_config" />
@@ -264,7 +298,7 @@
       <workItem from="1576637982408" duration="251000" />
       <workItem from="1576656677158" duration="597000" />
       <workItem from="1576722629043" duration="9019000" />
-      <workItem from="1577081977486" duration="13492000" />
+      <workItem from="1577081977486" duration="15311000" />
     </task>
     <task id="LOCAL-00001" summary="增加yaml读取">
       <created>1577156889853</created>
@@ -273,11 +307,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577156889856</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加globalpath">
+      <created>1577179364348</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577179364348</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38613000" />
+    <option name="totallyTimeSpent" value="40432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -311,7 +352,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加yaml读取" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加yaml读取" />
+    <MESSAGE value="添加globalpath" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加globalpath" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/retry.py">
@@ -404,6 +446,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/start_Appium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
