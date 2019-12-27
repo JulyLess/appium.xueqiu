@@ -1,5 +1,6 @@
 from appium import webdriver
-import time
+from appium.webdriver.common.touch_action import TouchAction
+import pytest
 
 """控件知识体系"""
 """DOM:Document Object Model文档对象模型"""
@@ -15,14 +16,31 @@ import time
 """swipe"""   """driver.swipe(start_x=75,start_y=500)"""
 """touch action"""
 
+"""手势操作TouchAction"""
+"""press release longPress"""
+"""tap wait"""
+"""moveTo"""
+"""perform"""
+
 
 """定位与操作的代码示例"""
-caps ={ }
-caps["platformName"] = "android"
-caps["deviceName"] = "127.0.0.1:62001"
-caps["appPackage"] = "com.xueqiu.android"
-caps["appActivity"] = ".view.WelcomeActivityAlias"
-caps["autoGrantPermissions"] = True
+class TestDemo:
+    def setup(self):
+        caps = {}
+        caps["platformName"] = "android"
+        caps["deviceName"] = "127.0.0.1:62001"
+        caps["appPackage"] = "com.xueqiu.android"
+        caps["appActivity"] = ".view.WelcomeActivityAlias"
+        caps["autoGrantPermissions"] = True
 
-driver = webdriver.Remote("http://localhost:4273/wd/hub",caps)
+        self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub",caps)
+        self.driver.implicitly_wait(10)
+
+    def test_Login(self):
+        pass
+
+    def teardown(self):
+        pass
+
+
 
