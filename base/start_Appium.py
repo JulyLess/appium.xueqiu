@@ -18,7 +18,11 @@ def connect_devices():
     os.system(r".\ConnectDevices.bat")
 
 def start_NOX(devices_name):
+    """启动夜神"""
     os.system(r".\start_NOX.bat")
 
-def start_Appium(host,port)
+# def start_appium(host,port)
+#     """启动appium服务器"""
+#     bootstrap_port = str(port)
+
 
