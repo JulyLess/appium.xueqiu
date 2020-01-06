@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a86e489-2113-4d69-92bd-457dcf972c44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/test_TaoBao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/start_Appium.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/start_Appium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/readyamlConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/readyamlConfig.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/readyamlConfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="-3">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -81,7 +79,6 @@
         <option value="$PROJECT_DIR$/readConfig.py" />
         <option value="$PROJECT_DIR$/src/common/driver_config.py" />
         <option value="$PROJECT_DIR$/config/driver_config.yaml" />
-        <option value="$PROJECT_DIR$/config/readyamlConfig.py" />
         <option value="$PROJECT_DIR$/base/ConnectDevices.bat" />
         <option value="$PROJECT_DIR$/base/__init__.py" />
         <option value="$PROJECT_DIR$/base/globalpath.py" />
@@ -91,6 +88,7 @@
         <option value="$PROJECT_DIR$/Test/test_TaoBao.py" />
         <option value="$PROJECT_DIR$/base/start_Appium.py" />
         <option value="$PROJECT_DIR$/common/__init__.py" />
+        <option value="$PROJECT_DIR$/config/readyamlConfig.py" />
       </list>
     </option>
   </component>
@@ -288,7 +286,7 @@
       <workItem from="1577342213025" duration="7910000" />
       <workItem from="1577411833381" duration="5756000" />
       <workItem from="1577756481422" duration="1201000" />
-      <workItem from="1578290321793" duration="6169000" />
+      <workItem from="1578290321793" duration="7158000" />
     </task>
     <task id="LOCAL-00001" summary="增加yaml读取">
       <created>1577156889853</created>
@@ -325,22 +323,29 @@
       <option name="project" value="LOCAL" />
       <updated>1577441045296</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test">
+      <created>1578299324040</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578299324040</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63467000" />
+    <option name="totallyTimeSpent" value="64456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1323752" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1323752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2672131" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.91639346" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -367,7 +372,8 @@
     <MESSAGE value="新增判断进程" />
     <MESSAGE value="添加TestDemo" />
     <MESSAGE value="引入pytest" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入pytest" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/retry.py">
@@ -495,8 +501,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/readyamlConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="-3">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
